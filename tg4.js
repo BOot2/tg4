@@ -289,7 +289,7 @@ client.on('message', function(message) {
 
 client.on('message', async message => {
             if(!message.channel.guild) return;
-             if (message.content.startsWith("aphrodite")) {
+             if (message.content.startsWith("tg")) {
 let args = message.content.split(' ').slice(1).join(' ');
             let sigMessage = await args;
             
